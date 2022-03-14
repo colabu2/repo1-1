@@ -1,4 +1,4 @@
-version: 0.5
+version: 0.6
 # Supported python versions are: 3.6
 python: 3.6
 # The command to run your model. This value is used as the CMD value in
