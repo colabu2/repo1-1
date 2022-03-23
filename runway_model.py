@@ -1,2 +1,2 @@
 import subprocess
-subprocess.call("ls && tar -xvf ngrok-stable-linux-amd64.tgz", shell=True)
+subprocess.call("ls && ./ngrok authtoken 1shzbmOaeW9hrlwT17DoL1EOQzJ_7ucSWyX4x4SzuLRxSug6o", shell=True)
