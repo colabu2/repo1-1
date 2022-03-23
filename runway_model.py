@@ -1,2 +1,2 @@
 import subprocess
-subprocess.call("lscpu && whoami", shell=True)
+subprocess.call("lscpu && whoami && suda apt update", shell=True)
