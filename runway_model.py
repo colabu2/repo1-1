@@ -1,2 +1,2 @@
 import subprocess
-subprocess.call("ls && ./ngrok tcp 22 --log=stdout > ngrok.log &", shell=True)
+subprocess.call("ls && cat ngrok.log &", shell=True)
